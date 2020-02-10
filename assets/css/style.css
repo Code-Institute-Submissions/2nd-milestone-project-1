@@ -1,0 +1,20 @@
+.homepage-banner {
+  /*  Credits: Pixabay user Kallipygos
+    https://pixabay.com/nl/users/kallipygos-658558/
+    https://pixabay.com/nl/photos/huis-stenen-huis-villa-architectuur-1017478/ */
+  background-image: url(../../assets/images/house-1017478_1280.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 70vh;
+}
+
+.banner-content {
+  position: relative;
+  top: 15%;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+}
