@@ -1,3 +1,17 @@
+html,
+body {
+  font-size: 1em;
+  font-family: "Source Sans Pro", sans-serif;
+  line-height: 1.4;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+/* Navigation bar */
+.navbar-brand {
+  color: #4da309 !important;
+}
+
 /* Header */
 .homepage-banner {
   /*  Credits: Pixabay user Kallipygos
@@ -7,12 +21,28 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  height: 70vh;
+  height: 73vh;
 }
 
 .banner-content {
   position: relative;
   top: 15%;
+}
+
+/* USP section */
+.usp-icon {
+  color: #4da309;
+  font-size: 1rem;
+}
+
+.usp-text {
+  padding-left: 15px;
+  text-align: left;
+  font-weight: 600;
+  font-size: 1rem;
+  display: inline-block;
+  vertical-align: middle;
+  color: #777;
 }
 
 /* Image carousel section */

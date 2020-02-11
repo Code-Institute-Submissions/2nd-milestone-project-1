@@ -23,13 +23,14 @@
 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/responsive.css" />
   </head>
 
   <body>
     <!-- Navigation and header section -->
     <header>
       <!-- Navigation -->
-      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand" href="#">HH United</a>
         <button
           class="navbar-toggler"
@@ -56,18 +57,38 @@
       <!-- Header, credits to Pixabay user Kallipygos for the image -->
       <section class="jumbotron jumbotron-fluid homepage-banner">
         <div class="container banner-content">
-          <h1 class="display-3 text-white">Holiday Home United</h1>
-          <p class="lead text-white my-3">
+          <h1 class="header-title display-5 text-white">Holiday Home United</h1>
+          <p class="header-subtitle-lead lead text-white mt-5">
             Van een villa aan het strand tot een chalet in de bergen.
           </p>
 
-          <p class="text-white">
-            Meer dan 35.000 unieke vakantiehuizen op geweldige locaties in 24
-            landen.
+          <p class="header-subtitle text-white">
+            Unieke vakantiehuizen op geweldige locaties in 15 landen.
           </p>
         </div>
       </section>
     </header>
+
+    <section class="container" id="usp-section">
+      <div class="row mx-auto">
+        <div class="col-6 col-md-3">
+          <i class="usp-icon fas fa-globe-europe"></i>
+          <span class="usp-text">Meer dan<br />15 landen</span>
+        </div>
+        <div class="col-6 col-md-3">
+          <i class="usp-icon fas fa-home"></i>
+          <span class="usp-text">15000+<br />huizen</span>
+        </div>
+        <div class="d-none d-md-block  col-md-3">
+          <i class="usp-icon far fa-smile-beam"></i>
+          <span class="usp-text">Alles voor<br />een blije klant</span>
+        </div>
+        <div class="d-none d-md-block col-md-3">
+          <i class="usp-icon fas fa-mobile-alt"></i>
+          <span class="usp-text">24/7<br />bereikbaar</span>
+        </div>
+      </div>
+    </section>
 
     <!-- Image carousel section -->
     <section class="container" id="image-carousel-section">
