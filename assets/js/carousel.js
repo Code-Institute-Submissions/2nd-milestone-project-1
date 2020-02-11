@@ -1,4 +1,4 @@
-// Image carousel
+// Settings image carousel
 $(function() {
   $(".owl-carousel").owlCarousel({
     items: 5,
@@ -16,8 +16,8 @@ $(function() {
       0: {
         items: 2
       },
-      // breakpoint from 480 up
-      480: {
+      // breakpoint from 576 up
+      576: {
         items: 3
       },
       // breakpoint from 768 up
