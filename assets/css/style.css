@@ -50,12 +50,21 @@ body {
   color: #ffc107;
   font-size: 30px;
   background: none;
-  margin: 15px;
+  margin: 0 15px;
 }
 
 .owl-theme .owl-nav [class*="svg-inline-"]:hover {
   background: none;
   color: #ffc107;
+}
+
+.card-title-carousel {
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.card-text-carousel {
+  font-size: 12px;
 }
 
 /* Footer */
