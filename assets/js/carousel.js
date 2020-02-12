@@ -53,8 +53,15 @@ $(function() {
               " personen)" +
               `</h5>
                 <p class="card-text card-text-carousel">` +
+              "Deze vakantiewoning (" +
+              `<span class="lowercase">` +
+              value.HouseType +
+              `</span>` +
+              ") huur je vanaf &euro; " +
+              value.MinMaxPrice[0].MinPrice +
+              " per week." +
               `
-                <b>Land:</b> ` +
+                <br><br><b>Land:</b> ` +
               value.Location.Address.Country +
               ` <br>
                 <b>Regio:</b> ` +
