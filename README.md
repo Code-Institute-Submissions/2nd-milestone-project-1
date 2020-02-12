@@ -27,7 +27,7 @@
 
 ## Colors
 
-- Bootswatch Simplex: https://bootswatch.com/simplex/
+- Bootswatch: [Simplex theme](https://bootswatch.com/simplex/ "Simplex theme")
 
 ## Code
 
