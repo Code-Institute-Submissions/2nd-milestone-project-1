@@ -8,6 +8,14 @@ body {
   overflow-x: hidden;
 }
 
+.text-orange {
+  color: #ffc107;
+}
+
+.text-green {
+  color: #4da309;
+}
+
 .lowercase {
   text-transform: lowercase;
 }
@@ -55,7 +63,7 @@ body {
   color: #ffc107;
   font-size: 30px;
   background: none;
-  margin: 0 15px;
+  margin: 0 15px 15px 15px;
 }
 
 .owl-theme .owl-nav [class*="svg-inline-"]:hover {
@@ -70,6 +78,31 @@ body {
 
 .card-text-carousel {
   font-size: 12px;
+}
+
+.newsletter {
+  height: 65vh;
+  display: block;
+  position: relative;
+}
+
+/* Newsletter */
+.newsletter::after {
+  /*  Credits: Pixabay user Tumisu
+    https://pixabay.com/nl/users/tumisu-148124/
+    https://pixabay.com/nl/illustrations/email-reclame-online-marketing-2362038/ */
+  content: "";
+  background-image: url(../../assets/images/email-marketing-2362038_1280.png);
+  opacity: 0.3;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  z-index: -1;
 }
 
 /* Footer */
