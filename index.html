@@ -186,13 +186,14 @@
         Doe inspiratie op via onze nieuwsbrief. Ontvang maandelijks de leukste
         foto's, reisverhalen en aanbiedingen in je mailbox.
       </p>
-      <form action="#" class="needs-validation" novalidate>
+      <form action="https://ci-newsletter-rest-api.herokuapp.com/" id="newsletter" methode="post" class="needs-validation" novalidate>
         <div class="form-row">
           <div class="col-md-3 mb-3">
             <label class="text-green font-weight-bold" for="firstname">Voornaam</label>
             <input
               type="text"
               class="form-control"
+              name="firstname"
               id="firstname"
               placeholder="Voornaam"
               value="James"
@@ -207,6 +208,7 @@
             <input
               type="text"
               class="form-control"
+              name="lastname"
               id="lastname"
               placeholder="Achternaam"
               value="Bond"
@@ -221,6 +223,7 @@
             <input
               type="email"
               class="form-control"
+              name="email"
               id="email"
               placeholder="007@gmail.com"
               required
@@ -248,8 +251,10 @@
             </div>
           </div>
         </div>
-        <button class="btn btn-danger" type="submit">Aanmelden</button>
+        <div>
+        <input class="btn btn-danger" value="Aanmelden" type="submit"/></div>
       </div>
+      <div id="message"></div>
       </form>
     </section>
 
@@ -290,5 +295,7 @@
 
     <!-- Switch off validation to make use of Bootstrap's validation -->
     <script src="assets/js/validate.js"></script>
+
+    <script src="assets/js/newsletter.js"></script>
   </body>
 </html>
