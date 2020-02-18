@@ -257,6 +257,28 @@
       <div id="message"></div>
       </form>
     </section>
+    <section id="contact">
+      <div class="row">
+        <div class="col">      
+      <form id="contact-form" method="post">
+        <label>Naam:</label>
+        <input type="text" name="from_name" />
+        <label>E-mail:</label>
+        <input type="text" name="from_email" />
+        <label>Telefoon</label>
+        <input type="text" name="from_phone" />
+        <label>Onderwerp:</label>
+        <input type="text" name="subject_request" />
+        <label>Vraag:</label>
+        <input type="text" name="contactform_request" />
+        <br><br>
+        <button>
+        Vraag versturen
+        </button>
+        </form>
+      </div>
+    </div>
+    </section>
 
     <footer class="container-fluid mt-5 bg-dark text-center">
       <div class="row">
@@ -286,16 +308,26 @@
     ></script>
 
     <!-- Owl carousel -->
-    <script src="assets/js/owl.carousel.min.js"></script>
-    <script src="assets/js/carousel.js"></script>
+    <script src="assets/js/owl.carousel.min.js" type="text/javascript"></script>
+    <script src="assets/js/carousel.js" type="text/javascript"></script>
 
     <!-- WOW JS: dependency with animate.css -->
-    <script src="assets/js/wow.min.js"></script>
-    <script src="assets/js/wow.js"></script>
+    <script src="assets/js/wow.min.js" type="text/javascript"></script>
+    <script src="assets/js/wow.js" type="text/javascript"></script>
 
     <!-- Switch off validation to make use of Bootstrap's validation -->
-    <script src="assets/js/validate.js"></script>
+    <script src="assets/js/validate.js" type="text/javascript"></script>
 
-    <script src="assets/js/newsletter.js"></script>
+    <!-- Custom newsletter JS code -->
+    <script src="assets/js/newsletter.js" type="text/javascript"></script>
+
+    <!-- Code to support emailJS -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2.3.2/dist/email.min.js"></script>
+    <script src="assets/js/emailjs.js" type="text/javascript"></script>
+    <script type="text/javascript">
+      (function(){
+         emailjs.init("user_3pcuHKI6HGtURw23EKwFv");
+      })();
+   </script>
   </body>
 </html>
