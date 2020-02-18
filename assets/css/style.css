@@ -105,6 +105,32 @@ body {
   z-index: -1;
 }
 
+/* Contact  */
+.contact-details-list,
+.social-media-list {
+  list-style-type: none;
+}
+
+ul.contact-details-list {
+  padding: 0;
+}
+
+ul.contact-details-list li {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  width: 80%;
+}
+
+.contact-detail {
+  padding-left: 10px;
+}
+
+ul.social-media-list li {
+  display: inline-block;
+  padding: 5px;
+}
+
 /* Footer */
 footer {
   position: fixed;
