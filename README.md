@@ -36,6 +36,7 @@
 # Acknowledgements
 
 - Bootstrap documentation
+- Font Awesome documentation
 - Owl Carousel 2 documentation
 - Abraham Garcia Tutorial: [How to Add Dynamic Slides to OWL Carousel via Ajax](https://thecodebeast.com/post/how-to-add-dynamic-slides-to-owl-carousel-via-ajax/52 "How to Add Dynamic Slides to OWL Carousel via Ajax")
 - wow.js and Animate.css Github documentation

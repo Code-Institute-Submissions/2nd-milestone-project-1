@@ -126,6 +126,10 @@ ul.contact-details-list li {
   padding-left: 10px;
 }
 
+.social-media-list {
+  padding-left: 0;
+}
+
 ul.social-media-list li {
   display: inline-block;
   padding: 5px;
