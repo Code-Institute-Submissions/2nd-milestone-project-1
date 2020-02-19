@@ -11,6 +11,10 @@
 - Font Awesome for icons
 - Git and Github for version control
 
+## Tools
+
+- [CSS matic box shadow tool](https://www.cssmatic.com/ "CSS matic box shadow tool")
+
 # Credits
 
 ## Media

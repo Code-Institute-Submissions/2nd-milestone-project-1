@@ -278,7 +278,7 @@
           <div class="row">
             <div class="col-md-6">
               <div>
-                <h4>Contactgegevens</h4>
+                <h3>Contactgegevens</h3>
                 <ul class="contact-details-list">
                   <li>
                     <i class="fas fa-phone fa-fw"></i
@@ -334,93 +334,95 @@
         </div>
 
         <div class="col-md-6">
-          <h3>Stuur ons een e-mail</h3>
-          <p>
-            Heb je een vraag of feedback voor ons? Stuur gerust! Dat vinden we
-            leuk ;)
-          </p>
-          <form
-            id="contact-form"
-            method="post"
-            class="needs-validation"
-            novalidate
-          >
-            <div class="form-row">
-              <div class="col-sm-6">
-                <div class="form-group">
-                  <input
-                    id="name"
-                    class="form-control"
-                    type="text"
-                    name="from_name"
-                    placeholder="Naam"
-                    required
-                  />
+          <div class="contact-form-wrapper">
+            <h3>Stuur ons een e-mail</h3>
+            <p>
+              Heb je een vraag of feedback voor ons? Stuur gerust! Dat vinden we
+              leuk ;)
+            </p>
+
+            <form
+              id="contact-form"
+              method="post"
+              class="needs-validation"
+              novalidate
+            >
+              <div class="form-row">
+                <div class="col-sm-6">
+                  <div class="form-group">
+                    <input
+                      id="name"
+                      class="form-control"
+                      type="text"
+                      name="from_name"
+                      placeholder="Naam"
+                      required
+                    />
+                  </div>
+                  <div class="invalid-tooltip">
+                    Vul een naam in.
+                  </div>
                 </div>
-                <div class="invalid-tooltip">
-                  Vul een naam in.
+                <div class="col-sm-6">
+                  <div class="form-group">
+                    <input
+                      id="contact-email"
+                      class="form-control"
+                      type="email"
+                      name="from_email"
+                      placeholder="E-mail"
+                      required
+                    />
+                  </div>
+                  <div class="invalid-tooltip">
+                    Vul een geldig e-mailadres in.
+                  </div>
+                </div>
+                <div class="col-sm-6">
+                  <div class="form-group">
+                    <input
+                      id="phone"
+                      class="form-control"
+                      type="text"
+                      name="from_phone"
+                      placeholder="Telefoon"
+                    />
+                  </div>
+                </div>
+                <div class="col-sm-6">
+                  <div class="form-group">
+                    <input
+                      id="subject"
+                      class="form-control"
+                      type="text"
+                      name="subject_request"
+                      placeholder="Onderwerp"
+                      required
+                    />
+                  </div>
+                  <div class="invalid-tooltip">
+                    Vul een onderwerp in.
+                  </div>
                 </div>
               </div>
-              <div class="col-sm-6">
-                <div class="form-group">
-                  <input
-                    id="contact-email"
-                    class="form-control"
-                    type="email"
-                    name="from_email"
-                    placeholder="E-mail"
-                    required
-                  />
-                </div>
-                <div class="invalid-tooltip">
-                  Vul een geldig e-mailadres in.
-                </div>
+              <div class="form-group">
+                <input
+                  id="question"
+                  class="form-control"
+                  type="text"
+                  name="contactform_request"
+                  placeholder="Stel hier je vraag..."
+                  required
+                />
               </div>
-              <div class="col-sm-6">
-                <div class="form-group">
-                  <input
-                    id="phone"
-                    class="form-control"
-                    type="text"
-                    name="from_phone"
-                    placeholder="Telefoon"
-                  />
-                </div>
+              <div class="invalid-tooltip">
+                Vul je vraag in.
               </div>
-              <div class="col-sm-6">
-                <div class="form-group">
-                  <input
-                    id="subject"
-                    class="form-control"
-                    type="text"
-                    name="subject_request"
-                    placeholder="Onderwerp"
-                    required
-                  />
-                </div>
-                <div class="invalid-tooltip">
-                  Vul een onderwerp in.
-                </div>
-              </div>
-            </div>
-            <div class="form-group">
-              <input
-                id="question"
-                class="form-control"
-                type="text"
-                name="contactform_request"
-                placeholder="Stel hier je vraag..."
-                required
-              />
-            </div>
-            <div class="invalid-tooltip">
-              Vul je vraag in.
-            </div>
-            <br /><br />
-            <button>
-              Vraag versturen
-            </button>
-          </form>
+              <button type="button" class="btn btn-danger">
+                Vraag versturen
+              </button>
+            </form>
+          </div>
         </div>
       </div>
     </section>
