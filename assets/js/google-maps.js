@@ -11,10 +11,53 @@ function initMap() {
         value.Location.Latitude,
         value.Location.Longitude
       );
+
+      var contentInfoWindow =
+        `<div id="content">
+        ` +
+        `
+        <div id="siteNotice">` +
+        `</div>
+        ` +
+        `
+        <h3>` +
+        value.Title +
+        `</h3>
+        ` +
+        `
+        <div class="infoWindowImage">
+          ` +
+        `<img src="` +
+        value.Images_330x220.split(",")[0] +
+        `" />` +
+        `
+        </div>
+        ` +
+        `<div class="infoWindowText">
+          ` +
+        `<p>` +
+        value.Description +
+        `</p> ` +
+        `
+        </div>
+        ` +
+        `
+      </div>
+  
+      `;
+
+      var infowindow = new google.maps.InfoWindow({
+        content: contentInfoWindow
+      });
+
       var marker = new google.maps.Marker({
         position: latlng,
         map: map,
         title: value.HouseType + " | " + value.MaxPersons + " personen"
+      });
+
+      marker.addListener("click", function() {
+        infowindow.open(map, marker);
       });
     });
   });
