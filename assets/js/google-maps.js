@@ -1,4 +1,6 @@
 var map;
+var markers = [];
+
 function initMap() {
   map = new google.maps.Map(document.getElementById("map"), {
     center: { lat: 51.133481, lng: 10.018343 },
@@ -56,9 +58,18 @@ function initMap() {
         title: value.HouseType + " | " + value.MaxPersons + " personen"
       });
 
+      // Add markers to cluster of markers
+      markers.push(marker);
+
       marker.addListener("click", function() {
         infowindow.open(map, marker);
       });
+    });
+
+    // Add a marker clusterer to manage the markers.
+    var markerCluster = new MarkerClusterer(map, markers, {
+      imagePath:
+        "https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m"
     });
   });
 }
