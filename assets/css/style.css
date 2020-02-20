@@ -118,6 +118,34 @@ body {
   height: 70vh;
 }
 
+#content {
+  max-width: 330px;
+  height: auto;
+}
+
+.infoWindowTitle {
+  font-size: 0.8rem;
+}
+
+.infoWindowTextWrapper {
+  margin-top: 10px;
+  padding: 20px;
+  background: #eaeaea;
+  max-width: 60vw;
+  font-size: 0.8rem;
+}
+
+.infoWindowImage img {
+  max-width: 60vw;
+}
+
+.infoWindowText {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+}
+
 /* Contact  */
 #contact-section {
   position: relative;

@@ -20,9 +20,9 @@ function initMap() {
         `</div>
         ` +
         `
-        <h3>` +
+        <h5 class="infoWindowTitle">` +
         value.Title +
-        `</h3>
+        `</h5>
         ` +
         `
         <div class="infoWindowImage">
@@ -33,9 +33,9 @@ function initMap() {
         `
         </div>
         ` +
-        `<div class="infoWindowText">
+        `<div class="infoWindowTextWrapper">
           ` +
-        `<p>` +
+        `<p class="infoWindowText">` +
         value.Description +
         `</p> ` +
         `
