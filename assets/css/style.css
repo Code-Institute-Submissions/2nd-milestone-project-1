@@ -113,6 +113,11 @@ body {
   z-index: -1;
 }
 
+/* Google Maps */
+#map {
+  height: 70vh;
+}
+
 /* Contact  */
 #contact-section {
   position: relative;
