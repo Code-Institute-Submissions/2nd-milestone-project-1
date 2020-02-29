@@ -4,15 +4,18 @@ contactForm.submit(function(event) {
   var service_id = "gmail";
   var template_id = "holidayhomesunited";
 
-  contactForm.find("button").text("Sending...");
+  contactForm
+    .find(".alert-message")
+    .html("<p>Je e-mail wordt verstuurd...</p>");
   emailjs.sendForm(service_id, template_id, contactForm[0]).then(
     function() {
-      alert("Sent!");
-      contactForm.find("button").text("Send");
+      contactForm
+        .find(".alert-message")
+        .html("<p>Hartelijk dank! Je e-mail is succesvol verzonden!</p>");
     },
     function(err) {
       alert("Send email failed!\r\n Response:\n " + JSON.stringify(err));
-      contactForm.find("button").text("Send");
+      contactForm.find("button").text("Vraag versturen");
     }
   );
   return false;
