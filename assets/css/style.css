@@ -35,11 +35,17 @@ body {
   background-repeat: no-repeat;
   background-position: center center;
   height: 73vh;
+  margin-bottom: 0;
 }
 
 .banner-content {
   position: relative;
   top: 15%;
+}
+
+/* Search section */
+#search-section {
+  position: relative;
 }
 
 /* USP section */
