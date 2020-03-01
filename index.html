@@ -139,13 +139,7 @@
         Doe inspiratie op via onze nieuwsbrief. Ontvang maandelijks de leukste
         foto's, reisverhalen en aanbiedingen in je mailbox.
       </p>
-      <form
-        action="https://ci-newsletter-rest-api.herokuapp.com/subscribe"
-        id="newsletter"
-        methode="post"
-        class="needs-validation"
-        novalidate
-      >
+      <form id="newsletter" class="needs-validation" novalidate>
         <div class="form-row">
           <div class="col-md-3 mb-3">
             <label class="text-green font-weight-bold" for="firstname"
@@ -214,10 +208,10 @@
             </div>
           </div>
         </div>
-        <div>
-          <input class="btn btn-danger" value="Aanmelden" type="submit" />
-        </div>
-        <div id="message"></div>
+        <button class="btn btn-danger" id="submit-email">
+          Aanmelden
+        </button>
+        <div id="success-message"></div>
       </form>
     </section>
 
