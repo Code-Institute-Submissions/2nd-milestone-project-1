@@ -70,7 +70,12 @@ $(function() {
                 <b>Plaats: </b>` +
               value.Location.Address.City +
               `
-                </p></div>
+                </p>
+                <a href="https://www.belvilla.nl/property-check?property_id=` +
+              value.PropertyId +
+              `" class="btn btn-danger stretched-link" target="_blank">Boeken</a> 
+                
+                </div>
                 <div class="card-footer">
       <small class="text-muted"><i class="fas fa-user-friends mr-2"></i>` +
               value.MaxPersons +
@@ -78,7 +83,7 @@ $(function() {
               value.Bedrooms +
               `<i class="fas fa-shower mx-2"></i>` +
               value.Bathrooms +
-              `</small>
+              `</small>  
     </div>
                 </div></div>`
           )

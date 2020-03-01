@@ -44,7 +44,7 @@ const outputHtml = matches => {
         </p>
         <a href="https://www.belvilla.nl/property-check?property_id=${
           match.PropertyId
-        }" class="btn btn-danger stretched-link">Boeken</a>
+        }" class="btn btn-danger stretched-link" target="_blank">Boeken</a>
         </div>
         </div>
         <div class="row">

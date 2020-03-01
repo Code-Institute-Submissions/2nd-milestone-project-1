@@ -210,6 +210,6 @@ ul.social-media-list li {
 
 /* Footer */
 footer {
-  position: fixed;
-  bottom: 0;
+  position: relative;
+  padding: 40px;
 }
