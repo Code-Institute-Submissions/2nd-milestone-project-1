@@ -3,6 +3,7 @@
 - HTML5 for structuring the website
 - CSS for styling
 - Bootstrap (4.4.1) framwework for styling and navigation
+- JavaScript for behaviour
 - jQuery for behaviour and as a dependency for Bootstrap
 - Popper.js as a dependency for Bootstrap
 - Owl Carousel 2 for an image carousel
@@ -35,7 +36,8 @@
 
 ## Code
 
-- Bootstrap navigation bar
+- Bootstrap navigation bar (Bootstrap's documentation)
+- Traversy Media: [Autocomplete App With JS & JSON](https://youtu.be/1iysNUrI3lw "Autocomplete App With JS & JSON")
 
 # Acknowledgements
 

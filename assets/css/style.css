@@ -48,6 +48,20 @@ body {
   position: relative;
 }
 
+/* Search result section */
+.card-details {
+  height: 100%;
+}
+
+.card-title-search {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.search-result-title {
+  margin-top: 10px;
+}
+
 /* USP section */
 #usp-section {
   position: relative;
