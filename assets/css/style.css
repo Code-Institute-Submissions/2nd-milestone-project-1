@@ -171,6 +171,23 @@ body {
 }
 
 /* Advertising  */
+.membership-wrapper {
+  -webkit-box-shadow: 0px 0px 20px 0px rgba(77, 163, 9, 0.1);
+  -moz-box-shadow: 0px 0px 20px 0px rgba(77, 163, 9, 0.1);
+  box-shadow: 0px 0px 20px 0px rgba(77, 163, 9, 0.1);
+  border-radius: 10px;
+  padding: 30px;
+  margin: 0 15px;
+}
+
+.membership-wrapper button {
+  width: 60%;
+}
+
+.membership-wrapper p {
+  font-size: 0.8em;
+}
+
 .pricing-details-list {
   list-style-type: none;
   padding-left: 0;
@@ -178,6 +195,7 @@ body {
 
 .pricing-detail {
   padding-left: 10px;
+  font-size: 0.8em;
 }
 
 /* Contact  */
@@ -189,6 +207,7 @@ body {
   -webkit-box-shadow: 0px 0px 20px 0px rgba(77, 163, 9, 0.2);
   -moz-box-shadow: 0px 0px 20px 0px rgba(77, 163, 9, 0.2);
   box-shadow: 0px 0px 20px 0px rgba(77, 163, 9, 0.2);
+  border-radius: 10px;
   padding: 30px;
   margin-top: -30px;
 }
