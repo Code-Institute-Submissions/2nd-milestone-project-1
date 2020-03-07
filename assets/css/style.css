@@ -20,6 +20,14 @@ body {
   text-transform: lowercase;
 }
 
+.fa-check {
+  color: #4da309;
+}
+
+.fa-ban {
+  color: #d9230f;
+}
+
 /* Navigation bar */
 .navbar-brand {
   color: #4da309 !important;
@@ -164,6 +172,16 @@ body {
   display: -webkit-box;
   -webkit-line-clamp: 4;
   -webkit-box-orient: vertical;
+}
+
+/* Advertising  */
+.pricing-details-list {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.pricing-detail {
+  padding-left: 10px;
 }
 
 /* Contact  */

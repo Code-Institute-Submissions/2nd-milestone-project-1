@@ -224,9 +224,60 @@
     <section id="advertising-section" class="container-fluid">
       <div class="row">
         <div class="col-12">
-          <h2 class="text-green pt-3">Succesvol adverteren</h2>
+          <h2 class="text-green text-center pt-3">Succesvol adverteren</h2>
           <div class="row">
-            <div class="col-md-4">Brons</div>
+            <div class="col-md-4">
+              <h3>Brons</h3>
+
+              <hr />
+              <div class="row">
+                <div class="col-3">
+                  <h4>&euro; 25</h4>
+                  <small>per maand</small>
+                </div>
+                <div class="col-9">
+                  <p>Adverteren met niet al te veel poespas</p>
+                </div>
+              </div>
+              <hr />
+              <div class="row">
+                <div class="col-12">
+                  <ul class="pricing-details-list">
+                    <li>
+                      <i class="fas fa-check"></i
+                      ><span class="pricing-detail">15 foto's </span>
+                    </li>
+                    <li>
+                      <i class="fas fa-check"></i
+                      ><span class="pricing-detail">1 video</span>
+                    </li>
+                    <li>
+                      <i class="fas fa-check"></i
+                      ><span class="pricing-detail">Maakt zelf teksten</span>
+                    </li>
+                    <li>
+                      <i class="fas fa-ban"></i
+                      ><span class="pricing-detail"
+                        >Vermelding op homepage</span
+                      >
+                    </li>
+                    <li>
+                      <i class="fas fa-ban"></i
+                      ><span class="pricing-detail"
+                        >Vermelding op social media</span
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <button
+                class="text-center btn btn-danger"
+                data-target="#demo-site"
+                data-toggle="modal"
+              >
+                Adverteren
+              </button>
+            </div>
             <div class="col-md-4">Zilver</div>
             <div class="col-md-4">Goud</div>
           </div>
@@ -391,6 +442,42 @@
         </div>
       </div>
     </footer>
+
+    <!-- start modal -->
+    <div
+      aria-hidden="true"
+      aria-labelledby="demo-site-label"
+      class="modal fade"
+      id="demo-site"
+      role="dialog"
+      tabindex="-1"
+    >
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="demo-site-label">
+              Whoohoo, link is working!
+            </h5>
+            <button
+              aria-label="Close"
+              class="close"
+              data-dismiss="modal"
+              type="button"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            This is a demo website for educational purposes.
+          </div>
+          <div class="modal-footer">
+            <button class="btn btn-primary" data-dismiss="modal" type="button">
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <!-- jQuery, Popper and Bootstrap js in order to get full Bootstrap functionality -->
     <script
