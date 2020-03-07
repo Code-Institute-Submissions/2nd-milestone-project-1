@@ -20,6 +20,10 @@ body {
   text-transform: lowercase;
 }
 
+.pointer {
+  cursor: pointer;
+}
+
 .fa-check {
   color: #4da309;
 }
