@@ -62,14 +62,14 @@ I Integrated the following features to meet the user stories:
 - Newsletter
 - Contact form
 
-As a side project I made a REST api with NodeJS to make it possible to registrate the subscriber on the newsletter. When an emailadddress is submitted to MongoDB which registrates the subsciber as inactive.
+As a side project I made a [REST API](https://github.com/GitNorthWay/nodejs-rest-api "NodeJS Rest API") with NodeJS to make it possible to registrate the subscriber on the newsletter. When an emailadddress is submitted to MongoDB which registrates the subsciber as inactive.
 
 ## Features to be implemented
 
 - Signing up for advertisement membership
 - Advanced search for holiday homes
 - Database for storing houses
-- Fully working newsletter functionality which sends an activate email to the subscriber
+- Fully working newsletter functionality which sends an activation email to the subscriber
 
 # Technologies used
 
@@ -107,6 +107,10 @@ As a side project I made a REST api with NodeJS to make it possible to registrat
 ## Colors
 
 - Bootswatch: [Simplex theme](https://bootswatch.com/simplex/ "Simplex theme")
+
+## Data
+
+- Data is coming from @Leisure Vacation Rentals
 
 ## Code
 
