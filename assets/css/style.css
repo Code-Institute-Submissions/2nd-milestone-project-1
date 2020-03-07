@@ -8,14 +8,6 @@ body {
   overflow-x: hidden;
 }
 
-.text-orange {
-  color: #ffc107;
-}
-
-.text-green {
-  color: #4da309;
-}
-
 .lowercase {
   text-transform: lowercase;
 }
