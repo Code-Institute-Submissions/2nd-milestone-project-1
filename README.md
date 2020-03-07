@@ -47,7 +47,7 @@ The combination of these color is great because the green color eliminates the n
 The full range of colors of this theme is:
 
 - ![# #D9230F](https://placehold.it/15/D9230F/D9230F) `#D9230F` Primary
-- ![# #fff](https://placehold.it/15/fff/fff) `#fff` Secondary
+- ![# #FFFFFF](https://placehold.it/15/fff/fff) `#FFFFFF` Secondary
 - ![# #029ACF](https://placehold.it/15/029ACF/029ACF) `#029ACF` Info
 - ![# #9B479F](https://placehold.it/15/9B479F/9B479F) `#9B479F` Warning
 - ![# #D9831F](https://placehold.it/15/D9831F/D9831F) `#D9230F` Danger
