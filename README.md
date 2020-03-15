@@ -4,11 +4,11 @@
 
 This repository is my 2nd milestone project of Code Institute’s software engineering program.
 
-## Project purpose: Presentation of interactive data
+## Project purpose: presentation of interactive data
 
-The project purpose is to build an interactive front-end site. The site should respond to the users' actions, allowing users to actively engage with data, alter the way the site displays the information to achieve their preferred goals.
+The project purpose (definition of Code Institute) is to build an interactive front-end site. The site should respond to the users' actions, allowing users to actively engage with data, alter the way the site displays the information to achieve their preferred goals.
 
-## Value provided:
+## Project should provide following value:
 
 - Users are able to interact with the site in their particular way, to achieve their personal goals and derive answers to their specific questions.
 - The site owner advances their own goals by providing this functionality, potentially by being a regular user themselves.
@@ -47,7 +47,7 @@ The combination of these color is great because the green color eliminates the n
 The full range of colors of this theme is:
 
 - ![# #D9230F](https://placehold.it/15/D9230F/D9230F) `#D9230F` Primary
-- ![# #FFFFFF](https://placehold.it/15/fff/fff) `#FFFFFF` Secondary
+- ![# #FFF](https://placehold.it/15/fff/fff) `#FFF` Secondary
 - ![# #029ACF](https://placehold.it/15/029ACF/029ACF) `#029ACF` Info
 - ![# #9B479F](https://placehold.it/15/9B479F/9B479F) `#9B479F` Warning
 - ![# #D9831F](https://placehold.it/15/D9831F/D9831F) `#D9230F` Danger
@@ -89,6 +89,9 @@ As a side project I made a [REST API](https://github.com/GitNorthWay/nodejs-rest
 ## Tools
 
 - [CSS matic box shadow tool](https://www.cssmatic.com/ "CSS matic box shadow tool")
+- Visual Studio Code
+
+# Testing
 
 # Credits
 
@@ -116,14 +119,16 @@ As a side project I made a [REST API](https://github.com/GitNorthWay/nodejs-rest
 
 - Bootstrap navigation bar (Bootstrap's documentation)
 - Traversy Media: [Autocomplete App With JS & JSON](https://youtu.be/1iysNUrI3lw "Autocomplete App With JS & JSON")
+- Abraham Garcia Tutorial: [How to Add Dynamic Slides to OWL Carousel via Ajax](https://thecodebeast.com/post/how-to-add-dynamic-slides-to-owl-carousel-via-ajax/52 "How to Add Dynamic Slides to OWL Carousel via Ajax")
+- CSS-TRICKS: [Transparent Background Images](https://css-tricks.com/snippets/css/transparent-background-images/ "Transparent Background Images")
 
 # Acknowledgements
 
 - Bootstrap documentation
+- EmailJS documentation
 - Font Awesome documentation
+- Google Maps documentation
 - Owl Carousel 2 documentation
-- Abraham Garcia Tutorial: [How to Add Dynamic Slides to OWL Carousel via Ajax](https://thecodebeast.com/post/how-to-add-dynamic-slides-to-owl-carousel-via-ajax/52 "How to Add Dynamic Slides to OWL Carousel via Ajax")
 - wow.js and Animate.css Github documentation
-- CSS-TRICKS: [Transparent Background Images](https://css-tricks.com/snippets/css/transparent-background-images/ "Transparent Background Images")
 
 **This repo is for educational purposes only.**

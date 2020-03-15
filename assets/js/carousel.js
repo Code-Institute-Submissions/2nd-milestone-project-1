@@ -31,6 +31,7 @@ $(function() {
     }
   });
 
+  // Following code is partly based on a tutorial of Abraham Garcia
   $.ajax({
     url: "assets/data/data-package-1.json",
     dataType: "json",

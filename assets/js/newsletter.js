@@ -16,7 +16,7 @@ $(function() {
       data: submission,
       success: function(newSubmission) {
         $successMessage.append(
-          "<p>Succesvol verstuurd: " + newSubmission.firstname + "</p>"
+          "<p>Bedankt voor je inschrijving " + newSubmission.firstname + "</p>"
         );
       },
       error: function() {
