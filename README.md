@@ -54,7 +54,7 @@ The full range of colors of this theme is:
 
 ## Wireframe
 
-I've used [MockFlow](https://www.mockflow.com/ "MockFlow") to make my wireframe. You can download it here.
+I've used [MockFlow](https://www.mockflow.com/ "MockFlow") to make my wireframe. You can download it [here](https://user-images.githubusercontent.com/56503027/77687758-32bdbc80-6f9f-11ea-831f-298f9c1d53b2.png).
 
 In comparison with the wireframe I made two different choices:
 
@@ -100,8 +100,24 @@ As a side project I made a [REST API](https://github.com/GitNorthWay/nodejs-rest
 - [CSS matic box shadow tool](https://www.cssmatic.com/ "CSS matic box shadow tool")
 - [MockFlow](https://www.mockflow.com/ "MockFlow") to make a wireframe
 - Visual Studio Code
+- [W3C Markup Validation Service](https://validator.w3.org/ "W3C Markup Validation Service")
+- [JSHint](https://jshint.com/ "JSHint")
 
 # Testing
+
+I tested the website on technologies (HTML/CSS/JavaScript/jQuery), browser compatability and responsiveness. You may download the test report I made [here](https://github.com/GitNorthWay/2nd-milestone-project/files/4389458/test-report-holiday-homes-united-2020-03-15.xlsx). With my testing I ensured that the website works fine across different browsers & devices and that functionality behaves as intended. To see that the newsletter functionality works as intended I made a get request in my newsletter side project where you can see all subscribers. You may visit it [here](https://ci-newsletter-rest-api.herokuapp.com/subscribers "newsletter subscribers").
+
+# Deployment
+
+My project does not require any local deployment. I have deployed the website via GitHub which I also used for my version control. You may find the repository here: https://github.com/GitNorthWay/2nd-milestone-project
+
+I used GitHub Pages to publish my website on the internet. You may visit it here: https://gitnorthway.github.io/2nd-milestone-project/
+
+If you want to run the website locally, you can clone this repository by giving the follow command in your terminal:
+
+- git clone https://github.com/GitNorthWay/2nd-milestone-project.git
+
+After cloning you can view or edit the source code in the editor of your choice.
 
 # Credits
 
