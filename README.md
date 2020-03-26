@@ -30,7 +30,7 @@ For an optimal user experience I created the following user storties:
 - As a (potential) customer I want to get inspired by seeing homes attractively presented
 - As a home owner I want to know what advertising possibilities I have
 
-# Framework
+## Framework
 
 I've choosen to work with Bootstrap because it a widely used framework for developing mobile first applications. It's helping in development by its great grid system and list of components ready to use.
 
@@ -51,6 +51,15 @@ The full range of colors of this theme is:
 - ![# #029ACF](https://placehold.it/15/029ACF/029ACF) `#029ACF` Info
 - ![# #9B479F](https://placehold.it/15/9B479F/9B479F) `#9B479F` Warning
 - ![# #D9831F](https://placehold.it/15/D9831F/D9831F) `#D9230F` Danger
+
+## Wireframe
+
+I've used [MockFlow](https://www.mockflow.com/ "MockFlow") to make my wireframe. You can download it here.
+
+In comparison with the wireframe I made two different choices:
+
+- I didn't make use of the GDPR checkbox due to good practise examples of Code Institute and Booking.com where consent is given in later phase.
+- Regarding the advertising packages I made another choise in responsiveness. 3 packages in a row from large screens and up, instead of starting at medium size devices.
 
 # Features
 
@@ -89,6 +98,7 @@ As a side project I made a [REST API](https://github.com/GitNorthWay/nodejs-rest
 ## Tools
 
 - [CSS matic box shadow tool](https://www.cssmatic.com/ "CSS matic box shadow tool")
+- [MockFlow](https://www.mockflow.com/ "MockFlow") to make a wireframe
 - Visual Studio Code
 
 # Testing
